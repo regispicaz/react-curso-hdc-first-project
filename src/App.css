@@ -28,6 +28,37 @@
   color: #61dafb;
 }
 
+.loginForm input{
+  margin: 5px;
+  padding: 8px;
+  border: solid 2px orange;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.loginForm {
+  background-color: burlywood;
+  padding: 10px;
+  border: solid 2px gray;
+  border-radius: 10px;
+  width: fit-content;
+  margin: auto;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.inputFlex{
+  display: grid;
+}
+
+.inputFlex label {
+  text-align: start;
+  margin-left: 5px;
+  font-weight: bold;
+  color: #4f4f4f;
+}
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
